@@ -1,14 +1,3 @@
-/**
- * -------------------------------------
- * @expression expression.h
- * Assignment 6 Header File
- * -------------------------------------
- * @author Isabel Katai, 169020649, kata0649@mylaurier.ca
- *
- * @version 2024-01-13
- *
- * ------------------------------------- */
-
 #include "stack.h"
 #include "common.h"
 #include "queue.h"
