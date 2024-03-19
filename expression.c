@@ -1,14 +1,3 @@
-/**
- * -------------------------------------
- * @expression expression.h
- * Assignment 6 Header File
- * -------------------------------------
- * @author Isabel Katai, 169020649, kata0649@mylaurier.ca
- *
- * @version 2024-01-13
- *
- * ------------------------------------- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "common.h"
@@ -32,7 +21,7 @@ QUEUE infix_to_postfix(char *infixstr) {
         if (*p == '-' && (p == infixstr || *(p - 1) == '(')) { // get the sign of an operand
             sign = -1;
 
-        } else if (get_type(*p) == 0) { // namely *p is digit character, action: use horner’s algorithm to get the operand
+        } else if (get_type(*p) == 0) { // namely *p is digit character, action: use hornerâ€™s algorithm to get the operand
             num = *p - '0';
             while ((*(p + 1) >= '0' && *(p + 1) <= '9')) {
                 num = num * 10 + *(p + 1) - '0';
