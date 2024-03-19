@@ -1,14 +1,3 @@
-/**
- * -------------------------------------
- * @stack stack.h
- * Assignment 6 Header File
- * -------------------------------------
- * @author Isabel Katai, 169020649, kata0649@mylaurier.ca
- *
- * @version 2024-01-13
- *
- * ------------------------------------- */
-
 #include "common.h"
 #ifndef STACK_H
 #define STACK_H
