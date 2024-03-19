@@ -1,14 +1,3 @@
-/**
- * -------------------------------------
- * @queue queue.c
- * Assignment 6 Source File
- * -------------------------------------
- * @author Isabel Katai, 169020649, kata0649@mylaurier.ca
- *
- * @version 2024-01-13
- *
- * ------------------------------------- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "queue.h"
