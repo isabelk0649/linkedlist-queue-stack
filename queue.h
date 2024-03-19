@@ -1,0 +1,46 @@
+/**
+ * -------------------------------------
+ * @queue queue.h
+ * Assignment 6 Header File
+ * -------------------------------------
+ * @author Isabel Katai, 169020649, kata0649@mylaurier.ca
+ *
+ * @version 2024-01-13
+ *
+ * ------------------------------------- */
+
+#include "common.h"
+#ifndef QUEUE_H
+#define QUEUE_H
+
+/*
+ * Define a structure QUEUE containing length and pointers of front and rare node.
+ * int length - maintains the length of queue,
+ * NODE *front - pointer to the front node of linked list queue
+ * NODE *rear - points to the rare node of linked list queue
+*/
+typedef struct queue {
+  int length;
+  NODE *front;
+  NODE *rear;
+} QUEUE;
+
+/*
+ * Enqueue a node into a queue
+ * @param *qp - pointer to the queue
+ * @param NODE *np - pointer to the node.
+*/
+void enqueue(QUEUE *qp, NODE *np);
+
+/*
+ * Dequeue and return the pointer of the removed node.
+ * @param *qp - pointer to the queue
+ * @return - the reference of the removed node, and set it's next to NULL
+*/
+NODE *dequeue(QUEUE *qp);
+
+/*
+ * Clean the linked list queue
+*/
+void queue_clean(QUEUE *qp);
+#endif
