@@ -1,11 +1,3 @@
-/*--------------------------------------------------
- File:     common.c
- About:    implementation of common.h
- Author:   HBF
- Version:  2024-01-26
- --------------------------------------------------
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "common.h"
