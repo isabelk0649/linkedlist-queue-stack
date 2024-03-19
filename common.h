@@ -1,10 +1,3 @@
-/*--------------------------------------------------
- File:     common.h
- About:   node structure and functions for linked list queue and stack
- Author:   HBF
- Version:  2024-01-26
- --------------------------------------------------
- */ 
 #ifndef COMMON_H
 #define COMMON_H
 
